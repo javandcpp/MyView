@@ -41,8 +41,8 @@
 		3002EBFB21B4A9047C62990F /* Pods-MyView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MyView_Tests/Pods-MyView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3C05C1903E872C6312716115 /* Pods-MyView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyView_Tests.release.xcconfig"; path = "Target Support Files/Pods-MyView_Tests/Pods-MyView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		40A03405F396F3ED2C82EB60 /* Pods_MyView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		474E0F3D872A55692F45702C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4A6F4A962910179BF79E4908 /* MyView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyView.podspec; path = ../MyView.podspec; sourceTree = "<group>"; };
+		474E0F3D872A55692F45702C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4A6F4A962910179BF79E4908 /* MyView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyView.podspec; path = ../MyView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4C1BFB0E97C3C13FC6EBF10B /* Pods-MyView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyView_Example.release.xcconfig"; path = "Target Support Files/Pods-MyView_Example/Pods-MyView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MyView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		765848A2466AAF81C4295A9D /* Pods_MyView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BF0BF68D2674F9D788B40267 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BF0BF68D2674F9D788B40267 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				3002EBFB21B4A9047C62990F /* Pods-MyView_Tests.debug.xcconfig */,
 				3C05C1903E872C6312716115 /* Pods-MyView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = javandoc;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 3F3G95KJ85;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -519,6 +521,7 @@
 			baseConfigurationReference = 257F21827B13D919642B9D2F /* Pods-MyView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3F3G95KJ85;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyView/MyView-Prefix.pch";
 				INFOPLIST_FILE = "MyView/MyView-Info.plist";
@@ -535,6 +538,7 @@
 			baseConfigurationReference = 4C1BFB0E97C3C13FC6EBF10B /* Pods-MyView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3F3G95KJ85;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyView/MyView-Prefix.pch";
 				INFOPLIST_FILE = "MyView/MyView-Info.plist";
